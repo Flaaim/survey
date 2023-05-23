@@ -24,6 +24,7 @@ if(!$token){
 
 if(preg_match('#^/$#', $url)){
     $content = "<a href='/rate-company?token={$token}'>Пройдите тестирование</a>";
+    
 }elseif(preg_match("#^/rate-company\?token={$token}$#", $url)){ 
     $content = $rateSurvey->getPoll();
     
