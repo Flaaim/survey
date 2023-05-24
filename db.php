@@ -1,7 +1,7 @@
 <?php
 
 $conn = [
-    'dsn' => 'mysql:host=192.168.56.56;dbname=survey',
-    'user' => 'homestead',
-    'password' => 'secret',
+    'dsn' => 'mysql:host=127.0.0.1;dbname=survey',
+    'user' => 'root',
+    'password' => '',
 ];

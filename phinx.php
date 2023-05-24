@@ -20,10 +20,10 @@ return
         ],
         'development' => [
             'adapter' => 'mysql',
-            'host' => '192.168.56.56',
+            'host' => '127.0.0.1',
             'name' => 'survey',
-            'user' => 'homestead',
-            'pass' => 'secret',
+            'user' => 'root',
+            'pass' => '',
             'port' => '3306',
             'charset' => 'utf8',
         ],
